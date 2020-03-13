@@ -11,7 +11,7 @@ import thumbnailGuid2 from "../../static/images/integration/slack-guid-2.png";
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="Slack Integration" />
+    <SEO title="Feature" />
 
     <div className={"page-header"}>
       <img src={SlackHiStaffImage} />

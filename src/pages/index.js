@@ -12,7 +12,7 @@ import OurProduct from "../components/ourProduct";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Make your Staff and Workspace Happy" />
+    <SEO title="쇼핑몰 그로스해킹은 태거스" />
 
     <div className={"page-header home"}>
       <h1>Data-driven Marketing Solution <br />
