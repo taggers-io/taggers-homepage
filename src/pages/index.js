@@ -3,12 +3,15 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import featureImage from "../../static/images/hero.png";
-import thumbnailEvent from "../../static/images/feature-event.png";
-import thumbnailBoard from "../../static/images/feature-board.png";
-import thumbnailNews from "../../static/images/feature-news.png";
-import thumbnailTeams from "../../static/images/feature-team.png";
-import thumbnailStaff from "../../static/images/feature-user.png";
 import OurProduct from "../components/ourProduct";
+import logo from "../../static/images/logo.png";
+import facebook from "../../static/images/taggers/media/Facebook.png";
+import googleAds from "../../static/images/taggers/media/Google-Ads.png";
+import instagram from "../../static/images/taggers/media/Instagram.png";
+import kakao from "../../static/images/taggers/media/Kakao.png";
+import youtube from "../../static/images/taggers/media/Youtube.png";
+import facebookPartner from "../../static/images/taggers/partner/Facebook.png";
+import googlePartner from "../../static/images/taggers/partner/Google.png";
 
 const IndexPage = () => (
   <Layout>
@@ -32,6 +35,34 @@ const IndexPage = () => (
 
         <div className={"button"}>
           <a href="https://app.histaff.io" target={"_blank"}>무료 한 달 체험하기</a>
+        </div>
+      </div>
+    </div>
+
+    <div className={"all-in-one-place"}>
+      <div className={"container"}>
+        <div className={"all-in-one-place__content"}>
+          <h2>All in one place</h2>
+          <p>페이스북, 인스타그램, 구글, 유튜브, 카카오까지, <br />한 곳에서 만들고 관리하세요!</p>
+          <div>
+            <img alt={"Facebook"} src={facebook} />
+            <img alt={"GoogleAds"} src={googleAds} />
+            <img alt={"Instagram"} src={instagram} />
+            <img alt={"Kakao"} src={kakao} />
+            <img alt={"Youtube"} src={youtube} />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className={"partner"}>
+      <div className={"container"}>
+        <div className={"partner__content"}>
+          <h2>태거스는 구글 & 페이스북의 공식 파트너사입니다.</h2>
+          <div>
+            <img alt={"FacebookPartner"} src={facebookPartner} />
+            <img alt={"GooglePartner"} src={googlePartner} />
+          </div>
         </div>
       </div>
     </div>

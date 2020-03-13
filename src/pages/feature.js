@@ -159,26 +159,15 @@ const AboutPage = () => (
       </div>
     </div>
 
-    <div className={"bg-color"}>
+    <div className={"call-to-action"}>
       <div className={"container"}>
-        <div className={"integration-guid"}>
-          <div className={"title"}>
-            <h2>How to enable and use the Slack integration</h2>
-          </div>
+        <div className={"call-to-action__content"}>
+          <h2>1 month Free-trial</h2>
+          <p>이 모든 기능을 한 달간 무료로 체험하실 수 있습니다!</p>
+        </div>
 
-          <div className={"content"}>
-            <h4>Overview</h4>
-            <p>You need to be an admin in order to enable the Slack integration. With the Slack integration, you can
-              send an alert to Slack.</p>
-            <h4>Step 1</h4>
-            <p>Company admin needs to enable the integration one time for the whole company to use.</p>
-            <img alt={"News"} src={thumbnailGuid1} />
-
-            <h4>Step 2</h4>
-            <p>Set up your conditions, and press the Update button. You will be able to send a notification to a
-              specific Slack channel or to a specific user.</p>
-            <img alt={"News"} src={thumbnailGuid2} />
-          </div>
+        <div className={"button"}>
+          <a href="https://app.histaff.io" target={"_blank"}>무료 한 달 체험하기</a>
         </div>
       </div>
     </div>
