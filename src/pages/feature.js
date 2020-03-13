@@ -167,7 +167,7 @@ const AboutPage = () => (
         </div>
 
         <div className={"button"}>
-          <a href="https://app.histaff.io" target={"_blank"}>무료 한 달 체험하기</a>
+          <a href="https://advertiser.taggers.io/registration" target={"_blank"}>무료 한 달 체험하기</a>
         </div>
       </div>
     </div>
