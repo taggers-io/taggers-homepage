@@ -27,7 +27,7 @@ const IndexPage = () => (
       <div className={"container"}>
         <div className={"call-to-action__content"}>
           <h2>1 month Free-trial</h2>
-          <p>이 모든 기능을 한 달간 무료로 체험하실 수 있습니다!이 모든 기능을 한 달간 무료로 체험하실 수 있습니다!</p>
+          <p>이 모든 기능을 한 달간 무료로 체험하실 수 있습니다!</p>
         </div>
 
         <div className={"button"}>

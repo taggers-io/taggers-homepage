@@ -11,7 +11,7 @@ import {StaticQuery, graphql, Link} from "gatsby"
 
 import Header from "./header"
 import "../../static/styles/main.scss"
-import logo from "../../static/images/logo.svg"
+import logo from "../../static/images/logo.png"
 import iconTwitter from "../../static/images/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
 import iconGitHub from "../../static/images/icon-github.svg"
@@ -59,7 +59,7 @@ const Layout = ({children}) => (
                                         <li><Link to="/feature" title={"Feature"}>Feature</Link></li>
                                         <li><Link to="/service" title={"Service"}>Service</Link></li>
                                         <li><Link to="/about" title={"About Us"}>About</Link></li>
-                                        <li><a href={"https://histaff.io/blog"}>Blog</a></li>
+                                        <li><a href={"https://blog.naver.com/taggersio"}>Blog</a></li>
                                     </ul>
                                 </ul>
                             </div>

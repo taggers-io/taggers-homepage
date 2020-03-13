@@ -12,7 +12,7 @@ const AboutPage = () => (
     <SEO title="About" />
 
     <div className={"page-header"}>
-      <h2>Our Service</h2>
+      <h2>Service</h2>
       <p>오직 이커머스 쇼핑몰을 위한 광고 솔루션, Taggers<br />
         개발자, 마케터, 디자이너 없이도 누구나 손쉽게 데이터를 추적하고, 광고를 만들고, 운영할 수 있습니다.</p>
     </div>

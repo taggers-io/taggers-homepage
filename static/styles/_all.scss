@@ -15,10 +15,10 @@ body {
   }
 
   a {
-    color: #8953B7;
+    color: #e96884;
 
     &:hover, &:active {
-      color: #8953b7;
+      color: #e96884;
     }
   }
 
@@ -47,7 +47,7 @@ body {
           font-size: 16px;
           line-height: 47px;
           display: block;
-          background: #8953B7;
+          background: #e96884;
           border-radius: 4px;
           text-align: center;
           color: #FFFFFF;
@@ -169,8 +169,8 @@ body {
   }
 
   .call-to-action {
-    background-color: #8953B7;
-    color: #ffffff;
+    background-color: #f3f3f3;
+    //color: #ffffff;
     padding: 65px 0;
     border-radius: 40px 40px 0px 0px;
 
@@ -200,7 +200,7 @@ body {
 
       a {
         font-size: 18px;
-        background-color: #ffffff;
+        background-color: #e96884;
         width: 184px;
         margin-left: auto;
         border-radius: 4px;
@@ -210,7 +210,7 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
-        color: #8953B7;
+        color: #FFFFFF;
 
         @media screen and (max-width: $break-small) {
           margin: 0 auto;
@@ -228,7 +228,7 @@ body {
         font-family: Inter;
         font-weight: 600;
         margin: 0 0 32px;
-        color: #ffffff;
+        //color: #ffffff;
       }
 
       p {
@@ -351,14 +351,14 @@ body {
               color: #797283;
 
               &:hover, &:active {
-                color: #8953b7;
+                color: #e96884;
               }
             }
           }
         }
 
         .links__special {
-          background-color: #8953b7;
+          background-color: #e96884;
           color: #ffffff;
           border-radius: 4px;
           padding: 2px 5px;
