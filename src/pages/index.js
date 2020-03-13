@@ -24,6 +24,15 @@ const IndexPage = () => (
       <img alt={"Dashboard"} src={featureImage} />
     </div>
 
+    <div className={"partner"}>
+      <div className={"container"}>
+        <div className={"partner__content"}>
+          <h2>오직 이커머스 쇼핑몰을 위한 광고 솔루션, Taggers</h2>
+          <p>개발자, 마케터, 디자이너 없이도 누구나 손쉽게 데이터를 추적하고, 광고를 만들고, 운영할 수 있습니다.</p>
+        </div>
+      </div>
+    </div>
+
     <OurProduct />
 
     <div className={"call-to-action"}>
