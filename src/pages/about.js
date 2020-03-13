@@ -1,65 +1,40 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import informationImage from "../../static/images/Information-document.svg";
-import eventImage from "../../static/images/Event-managment.svg";
-import ProductivityImage from "../../static/images/Increase-Productivity.svg";
-import happinessImage from "../../static/images/Make-happiness.svg";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
-const AboutPage = () => (
-    <Layout>
-        <SEO title="About"/>
-
-        <div className={"page-header"}>
-            <h2>What’s HiStaff?</h2>
-            <p>HiStaff is a service that boost the staff’s productivity by offering new ways<br />to increase employee motivation and happiness.</p>
+const PrivacyPage = () => (
+  <Layout>
+    <SEO title="Privacy Policy" />
+    <div className={"container"}>
+      <div className={"content"}>
+        <div className={"title"}>
+          <h1>About Us</h1>
         </div>
 
-        <div className={"container"}>
-            <div className={"targets"}>
-                <div className={"title"}>
-                    <h2>Our Targets</h2>
-                </div>
+        <h3>태거스의 현재</h3>
+        <p>전체 8명으로 구성되었고, 2017년 2월 창업하여 2년 반이 되었습니다.
+          2018년 6월 솔루션 베타 런칭 후 6개월만에 솔루션 매출만으로 월 BEP를 달성하였습니다. 또한, 아모레퍼시픽 공식협력사로써 데이터 기반 마케팅 및 애드테크 솔루션 관련한 다양한 협업과 20군데
+          넘는 광고주를 확보함으로써 창업 이후 투자 한차례 없이 누적 매출 5억을 달성하였습니다.
+          올 해 2월에는 프리시리즈 A 투자를 확정지었습니다.
+          성장하는 스타트업의 요람, 마루 180(역삼)에서 올해까지 생활합니다. 남은 올 한 해 큰 성장을 이뤄내고자 합니다.</p>
 
-                <div className={"row"}>
-                    <div className={"col-6"}>
-                        <div className={"item"}>
-                            <img alt={"Information"} src={informationImage}/>
-                            <h3>Handling of Employes’s Information and documents</h3>
-                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
-                        </div>
-                    </div>
+        <h3>주요 활동</h3>
+        <p>전체 8명으로 구성되었고, 2017년 2월 창업하여 2년 반이 되었습니다.
+          2018년 6월 솔루션 베타 런칭 후 6개월만에 솔루션 매출만으로 월 BEP를 달성하였습니다. 또한, 아모레퍼시픽 공식협력사로써 데이터 기반 마케팅 및 애드테크 솔루션 관련한 다양한 협업과 20군데
+          넘는 광고주를 확보함으로써 창업 이후 투자 한차례 없이 누적 매출 5억을 달성하였습니다.
+          올 해 2월에는 프리시리즈 A 투자를 확정지었습니다.
+          성장하는 스타트업의 요람, 마루 180(역삼)에서 올해까지 생활합니다. 남은 올 한 해 큰 성장을 이뤄내고자 합니다.</p>
 
-                    <div className={"col-6"}>
-                        <div className={"item"}>
-                            <img alt={"Event"} src={eventImage}/>
-                            <h3>Manage Events</h3>
-                            <p>How to hold internal events is one of the problems of companies. HiStaff by presenting new ideas allows event management to be done as easily as possible.</p>
-                        </div>
-                    </div>
-                </div>
+        <h3>우리의 문화</h3>
+        <p>전체 8명으로 구성되었고, 2017년 2월 창업하여 2년 반이 되었습니다.
+          2018년 6월 솔루션 베타 런칭 후 6개월만에 솔루션 매출만으로 월 BEP를 달성하였습니다. 또한, 아모레퍼시픽 공식협력사로써 데이터 기반 마케팅 및 애드테크 솔루션 관련한 다양한 협업과 20군데
+          넘는 광고주를 확보함으로써 창업 이후 투자 한차례 없이 누적 매출 5억을 달성하였습니다.
+          올 해 2월에는 프리시리즈 A 투자를 확정지었습니다.
+          성장하는 스타트업의 요람, 마루 180(역삼)에서 올해까지 생활합니다. 남은 올 한 해 큰 성장을 이뤄내고자 합니다.</p>
+      </div>
+    </div>
+  </Layout>
+);
 
-                <div className={"row"}>
-                    <div className={"col-6"}>
-                        <div className={"item"}>
-                            <img alt={"Productivity"} src={ProductivityImage}/>
-                            <h3>Raise productivity</h3>
-                            <p>Many factors are affecting the staff's productivity in the workplace, the relationship between manager and staff and environmental factors are the main factors, therefore we will focus on these two factors in achieving our goal. Ultimately, increasing employee's productivity results in increasing the quality of products and services that are going to be provided.</p>
-                        </div>
-                    </div>
-
-                    <div className={"col-6"}>
-                        <div className={"item"}>
-                            <img alt={"Happiness"} src={happinessImage}/>
-                            <h3>Boost motivation and happiness</h3>
-                            <p>It is Obvious that a happy employee will make the environment happy and energetic! We are constantly attempting to provide solutions for maximizing employee’s motivation and joy.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </Layout>
-)
-
-export default AboutPage
+export default PrivacyPage;

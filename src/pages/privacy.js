@@ -1,47 +1,188 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const PrivacyPage = () => (
-    <Layout>
-        <SEO title="Privacy Policy"/>
-        <div className={"container"}>
-            <div className={"content"}>
-                <div className={"title"}>
-                    <h1>Privacy Policy</h1>
-                </div>
-
-                <p>At HiStaff, accessible from https://histaff.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by HiStaff and how we use it.</p>
-                <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at contact@histaff.io</p>
-
-                <h3>Log Files</h3>
-                <p>HiStaff follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
-
-                <h3>Cookies and Web Beacons</h3>
-                <p>Like any other website, HiStaff uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
-
-                <h3>Privacy Policies</h3>
-                <p>You may consult this list to find the Privacy Policy for each of the advertising partners of HiStaff. Our Privacy Policy was created with the help of the Privacy Policy Generator.</p>
-                <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on HiStaff, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
-                <p>Note that HiStaff has no access to or control over these cookies that are used by third-party advertisers.</p>
-
-                <h3>Third Party Privacy Policies</h3>
-                <p>HiStaff's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. You may find a complete list of these Privacy Policies and their links here: Privacy Policy Links.</p>
-                <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites. What Are Cookies?</p>
-
-                <h3>Children's Information</h3>
-                <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
-                <p>HiStaff does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
-
-                <h3>Online Privacy Policy Only</h3>
-                <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in HiStaff. This policy is not applicable to any information collected offline or via channels other than this website.</p>
-
-                <h3>Consent</h3>
-                <p>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>
-            </div>
+  <Layout>
+    <SEO title="Privacy Policy" />
+    <div className={"container"}>
+      <div className={"content"}>
+        <div className={"title"}>
+          <h1>Privacy Policy</h1>
         </div>
-    </Layout>
-)
 
-export default PrivacyPage
+        <p>㈜태거스는 방문자 및 고객이 제공한 개인정보가 보호받을 수 있도록 가능한 조치를 다하고 있으며, 개인정보 보호법 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게
+          처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립 공개합니다. 개인정보처리방침은 정부의 법령이나 지침의 변경, 회사의 내부 방침 변경 등의 사유로 개선을 위하여 변경될 수
+          있습니다. 개인정보의 처리방침을 개정하는 경우 웹사이트의 공지사항 또는 개별 고지를 통하여 이용자들이 쉽게 알 수 있도록 공지할 것입니다. 본 방침은 2020년 1월 1일부터 시행됩니다.</p>
+        <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to
+          contact us through email at biz@taggers.io</p>
+
+        <h3>제1조(개인정보 수집에 대한 동의)</h3>
+        <p>㈜태거스는 이용자들이 ㈜태거스의 개인정보처리방침과 이용 약관에 대하여 ‘확인’ 또는 ‘동의’ 등의 버튼을 클릭할 수 있는 절차를 마련합니다. </p>
+        <p>'회원 가입의 절차에서 위 버튼을 클릭할 시에는 위 개인정보처리방침 및 약관에 따른 개인정보의 수집과 처리에 대하여 동의한 것으로 봅니다.</p>
+
+        <h3>제2조(개인정보의 처리목적) ㈜태거스는 다음의 목적을 위하여 개인정보를 처리합니다.</h3>
+        <p>처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 개인정보 보호법 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할
+          예정입니다. </p>
+
+        <h4>2.1 서비스(솔루션) 회원 가입 및 관리</h4>
+        <p>회원 가입의사 확인, 회원제 서비스 제공에 따른 본인 식별․인증, 회원자격 유지․관리, 제한적 본인확인제 시행에 따른 본인확인, 서비스 부정이용 방지, 만 14세 미만 아동의 개인정보 처리시
+          법정대리인의 동의여부 확인, 각종 고지․통지, 고충처리 등을 목적으로 개인정보를 처리합니다.</p>
+
+        <h4>2.2 재화 또는 서비스 제공</h4>
+        <p>물품배송, 서비스 제공, 계약서․청구서 발송, 콘텐츠 제공, 맞춤서비스 제공, 본인인증, 연령인증, 요금결제․정산, 채권추심 등을 목적으로 개인정보를 처리합니다. </p>
+
+        <h4>2.3 고충처리</h4>
+        <p>민원인의 신원 확인, 민원사항 확인, 사실조사를 위한 연락․통지, 처리결과 통보 등의 목적으로 개인정보를 처리합니다.</p>
+
+        <h4>2.4 서비스(솔루션) 내 계정 관리</h4>
+        <p>솔루션 내에서 회사 계정이 생성되고 회사 내의 사용자를 생성 시에 개인정보를 처리합니다. 사용자는 다른 사용자를 초대할 수 있고, 솔루션 내 기능을 활용할 수 있는 권한을 가집니다.</p>
+
+        <h4>2.5 서비스에 대한 마케팅에 활용</h4>
+        <p>㈜태거스 홈페이지에서는 페이스북, 구글 등의 픽셀이 동작하여, 방문자의 쿠키 정보 기반으로 픽셀 식별자가 전송됩니다. 이는 개인을 식별할 수 있는 식별자는 아니며, 휘발성 식별자입니다. 이를 통해
+          향후 태거스의 온라인 광고 (리타겟팅 등)에서 활용될 수 있습니다. </p>
+
+        <h3>제3조(개인정보의 처리 및 보유기간)</h3>
+        <p>㈜태거스는 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집하였을 시에 동의를 받은 개인정보 보유, 이용 기간 내에서 개인정보를 처리, 보유합니다. </p>
+        <p>홈페이지의 운영 및 서비스의 제공 등과 관련한 개인정보에 대하여 ㈜태거스는 이를 이용자가 서비스를 이용하는 동안에는 계속적으로 위 목적을 위하여 보유 및 사용할 수 있습니다. 단 회원이 개인정보를
+          직접 삭제하거나 정보의 정정, 회원가입의 해지 등을 요청한 경우에는 재생할 수 없는 방법을 통하여 완전히 파기 처리하는 것을 원칙으로 합니다.</p>
+
+        <p>본인확인 등의 일시적인 목적을 위하여 일회성으로 입력받은 개인정보의 경우, 그 목적이 달성된 이후에는 재생할 수 없는 방법을 통하여 즉시 파기하는 것을 원칙으로 합니다. </p>
+
+        <p>본조 전3항의 예외로 ㈜태거스는 서비스의 부정 이용 재발 등을 방지하기 위하여 수집과 처리에 관한 동의일로부터 1개월까지 해당 회원의 개인정보를 보유할 수 있습니다.
+          또한 상법이나 전자상거래 등에서의 소비자보호에 관한 법률 등 관계 법령의 규정에 의하여 개인정보를 보존할 필요가 있는 경우, ㈜태거스는 법령에서 규정한 일정 기간 동안 회원의 정보를 보관할 수
+          있습니다. 이 때 보관되는 정보는 오로지 그 보관의 목적으로만 이용됩니다. 법령에서 규정된 보존 기간은 아래와 같습니다. </p>
+
+        <p>- 신용정보의 수집/처리 및 이용 등에 관한 기록 : 3년 <br />
+          - 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년 <br />
+          - 대금결제 및 재화 등의 공급에 관한 기록 : 5년 <br />
+          - 계약 또는 청약철회 등에 관한 기록 : 5년 <br />
+          - 접속, 로그 기록 등에 관련된 정보 : 3개월</p>
+
+        <h3>제4조(개인정보의 제3자 제공) </h3>
+        <p>㈜태거스는 정보주체의 개인정보를 제1조(개인정보의 처리 목적)에서 명시한 범위 내에서만 처리하며, 정보주체의 동의, 법률의 특별한 규정 등 개인정보 보호법 제17조 및 제18조에 해당하는
+          경우에만 개인정보를 제3자에게 제공합니다.</p>
+        <p>㈜태거스는 다음과 같이 개인정보를 제3자에게 제공하고 있습니다.</p>
+
+        <p>1. 광고 매체사 <br />
+          - 개인정보를 제공받는 자 : 페이스북, 구글 <br />
+          - 제공받는 자의 개인정보 이용목적 : 광고 계정에 광고주 신용카드 등록 및 광고주 부가세 처리를 위한 사업자 증빙용 <br />
+          - 제공받는 자의 보유․이용기간 : 계약 종료 후 해당 광고계정 삭제 전까지 <br />
+          - 제공하는 개인정보 항목 : 상호명, 사업자등록번호, 카드결제 정보
+        </p>
+
+        <p>2. 광고 파트너사 <br />
+          - 개인정보를 제공받는 자 : ㈜태거스와 MOU 계약한 파트너사들 <br />
+          - 제공받는 자의 개인정보 이용목적 : 광고 캠페인의 협력 업무 진행을 위해 필요 시에만 선별적 정보 제공 <br />
+          - 제공하는 개인정보 항목 : 계약 종료 시까지<br />
+          - 제공받는 자의 보유․이용기간 : 계약 종료 시까지
+        </p>
+
+        <h3>제5조(개인정보처리의 위탁) </h3>
+        <p>㈜태거스는 이용자의 동의 없이는 이용자의 개인정보에 대한 처리를 외부에 위탁하지 않습니다. 부득이하게 개인정보를 위탁할 필요가 발생하였을 경우에는 위탁의 대상자와 내용에 대하여 이용자께 사전에
+          고지하여 동의를 받습니다.</p>
+
+        <h3>제6조(정보주체와 법정대리인의 권리․의무 및 행사방법) </h3>
+        <p>개인정보의 주체는 ㈜태거스에 대하여 개인정보 열람, 정정, 삭제, 처리정지 요구 등의 권리를 행사할 수 있습니다. 다만 서비스 이용료의 체납 등 ㈜태거스가 제공하는 서비스에 대하여 이용자가
+          제공하여야 할 의무가 남아 있는 경우는 예외로 합니다. </p>
+        <p>제1항에 따른 권리 행사는 ㈜태거스에 대하여 회원탈퇴와 더불어 개인정보 보호법 시행령 제41조 제1항에 따라 전자우편, 모사전송(FAX) 등을 통하여 하실 수 있습니다. ㈜태거스는 이에 대하여
+          지체 없이 조치할 것입니다.</p>
+        <p>제1항에 따른 권리 행사는 정보 주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수 있습니다. 이 경우 개인정보 보호법 시행규칙 별지 제11호 서식에 따른 위임장을 제출하셔야
+          합니다. </p>
+        <p>개인정보 열람 및 처리정지 요구에 관하여, 개인정보보호법 제35조 제5항 및 제37조 제2항에 의하여 정보주체의 권리가 제한 될 수 있습니다. </p>
+        <p>개인정보의 정정 및 삭제 요구에 관하여, 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 그 삭제를 요구할 수 없습니다. </p>
+        <p>㈜태거스는 정보주체의 권리에 따른 개인정보 열람의 요구, 정정 및 삭제의 요구, 처리 정지의 요구 시 열람 등 요구를 한 자가 본인이거나 정당한 대리인인지를 확인합니다.</p>
+
+        <h3>제7조(처리하는 개인정보 항목) ㈜태거스는 다음의 개인정보 항목을 처리하고 있습니다.</h3>
+        <h4>7.1 솔루션(서비스) 회원 가입 및 관리 </h4>
+        <p>- 필수항목 : 성명, 연락처(휴대전화번호), 아이디(업무용 이메일 주소), 비밀번호, 회사명, 회사 유형, 사업자등록번호 <br />
+          - 선택항목 : 직무/직책</p>
+        <h4>7.2 재화 또는 서비스 제공</h4>
+        <p>- 필수항목 : 신용 카드 번호, 카드 유효기간 및 CVC 번호, 카드 비밀번호 앞 2자리, 보유자의 생년월일<br />
+          - 선택항목 : 없음</p>
+        <h4>7.3 매체 계정에 대한 권한 및 자산 접근 권한</h4>
+        <p>- 필수항목 : 페이스북 계정의 API 토큰, 구글 계정의 API 토큰<br />
+          - 선택항목 : 광고 계정 내 연동할 자산</p>
+        <h4>7.4 인터넷 서비스 이용과정에서 아래 개인정보 항목이 자동으로 생성되어 수집될 수 있습니다.</h4>
+        <p>- IP주소, 쿠키, MAC주소, 서비스 이용기록, 방문기록, 불량 이용기록 등</p>
+
+        <h3>제8조(개인정보의 파기) </h3>
+        <p>㈜태거스는 개인정보 보유기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를 파기합니다. </p>
+        <p>정보주체로부터 동의받은 개인정보 보유기간이 경과하거나 처리목적이 달성되었음에도 불구하고 다른 법령에 따라 개인정보를 계속 보존하여야 하는 경우에는, 해당 개인정보를 별도의 데이터베이스(DB)로
+          옮기거나 보관장소를 달리하여 보존합니다. </p>
+        <p>개인정보 파기의 절차 및 방법은 다음과 같습니다. </p>
+        <p>1. 파기절차 <br />
+          ㈜태거스는 파기 사유가 발생한 개인정보를 선정하고, ㈜태거스의 개인정보 보호책임자의 승인을 받아 개인정보를 파기합니다. <br /></p>
+        <p>2. 파기방법 <br />
+          ㈜태거스는 전자적 파일 형태로 기록․저장된 개인정보는 기록을 재생할 수 없도록 파기하며, 종이 문서에 기록․저장된 개인정보는 분쇄기로 분쇄하거나 소각하여 파기합니다.</p>
+
+        <h3>제9조(개인정보의 안전성 확보조치)</h3>
+        <p>㈜태거스는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다. </p>
+        <p>1. 관리적 조치 <br />
+          내부관리계획 수립․시행, 정기적 직원 교육 등 <br /></p>
+        <p>2. 기술적 조치 <br />
+          개인정보처리시스템 등의
+          접근권한 관리, 접근통제시스템 설치, 고유식별정보 등의 암호화, 보안프로그램 설치</p>
+        <p>3. 물리적 조치 <br />
+          전산실, 자료보관실 등의 접근통제 </p>
+
+        <h3>제10조(개인정보 자동 수집 장치의 설치∙운영 및 거부에 관한 사항)</h3>
+        <p>㈜태거스는 솔루션(서비스) 및 홈페이지 방문자에게 개별적인 맞춤서비스를 제공하기 위해 이용 정보를 저장하고 수시로 불러오는 ‘쿠키(cookie)’를 사용합니다. </p>
+        <p>쿠키는 웹사이트를 운영하는데 이용되는 서버(http)가 이용자의 컴퓨터 브라우저에게 보내는 소량의 정보이며 이용자들의 PC 컴퓨터내의 하드디스크에 저장되기도 합니다.</p>
+
+        <p>가. 쿠키의 사용목적: 이용자가 방문한 각 서비스와 웹 사이트들에 대한 방문 및 이용형태, 인기 검색어, 보안접속 여부, 등을 파악하여 이용자에게 최적화된 정보 제공을 위해 사용됩니다.</p>
+        <p>나. 쿠키의 설치∙운영 및 거부 : 웹브라우저 상단의 도구>인터넷 옵션>개인정보 메뉴의 옵션 설정을 통해 쿠키 저장을 거부 할 수 있습니다. </p>
+        <p>다. 쿠키 저장을 거부할 경우 맞춤형 서비스 이용에 어려움이 발생할 수 있습니다.</p>
+
+        <h3>제11조(개인정보 보호책임자)</h3>
+        <p> ㈜태거스는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다. </p>
+        <p>개인정보 보호책임자</p>
+        <p>성명 : 송준호 <br />
+          직책 : 개발이사 <br />
+          연락처 : 전화번호, 이메일, 팩스번호<br />
+          ※ 개인정보 보호 담당부서로 연결됩니다.</p>
+        <p>개인정보 보호 담당부서</p>
+        <p>부서명 : 경영지원팀 <br />
+          담당자 : 서지원 <br />
+          연락처 : 전화번호, 이메일, 팩스번호</p>
+        <p>정보주체께서는 ㈜태거스의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로 문의하실 수 있습니다.
+          ㈜태거스는 정보주체의 문의에 대해 지체없이 답변 및 처리해드릴 것입니다.</p>
+
+        <h3>제12조(개인정보 열람청구)</h3>
+        <p>정보주체는 개인정보 보호법 제35조에 따른 개인정보의 열람 청구를 아래의 부서에 할 수 있습니다. ㈜태거스는 정보주체의 개인정보 열람청구가 신속하게 처리되도록 노력하겠습니다. </p>
+        <p>개인정보 열람청구 접수․처리 부서 </p>
+        <p>부서명 : 경영지원팀 <br />
+          담당자 : 서지원 <br />
+          연락처 : 전화번호, 이메일, 팩스번호</p>
+
+        <h3>제13조(솔루션/서비스 회원의 웹사이트 및 상품 등을 이용하는 이용자에 대한 개인정보처리방침) </h3>
+        <p>본 조에서 규정하는 개인정보처리방침은 본 회사가 회원 서비스를 통하여 회원에게
+          제공하는 솔루션 및 서비스가, 본 회사와 계약이 체결된 회원사를 대리하여 회원사의 웹사이트 및 상품 등을 이용하는 이용자의 행동 등에 대한 정보를 제한된 범위에서 수집, 분석하는 부분에 대한 본
+          회사의 개인정보처리방침입니다. </p>
+        <p>1. 수집하는 개인정보의 종류 <br />
+          ㈜태거스의 솔루션 및 서비스는 회원사의 이용자에 대하여 특정 개인을 식별할 수 있는 정보는 수집하지 않습니다.</p>
+        <p>2. 이용자 정보 수집 방식 <br />
+          ㈜태거스의 솔루션 및 서비스는 이용자가 회원사의 웹페이지를 열어볼 때 웹 브라우저가 ㈜태거스에서 제공하는 자바스크립트로 통합 픽셀 스크립트를 실행하게 되며, 이를 통하여 방문정보를 ㈜태거스에서
+          중계하는 광고 매체 및 분석 솔루션(서비스)으로 전달합니다.</p>
+        <p>3. 전달되는 이용자의 정보 <br />
+          이용자의 정보로는 웹브라우저 버전 및 해상도 등의 웹브라우저 정보와, 이용자의 IP Address, 회원사의 웹사이트 방문에 대한 쿠키값이 해당합니다. 또한, 해당 쿠키값과 함께 각 광고 매체 및
+          분석 솔루션(서비스)에서 필요로 하는 행동 정보(장바구니 담기 등)와 관련 상품에 대한 정보(상품 가격 등)의 데이터가 포함되어 송신됩니다. 본 정보에는 개인 식별이 가능한 어떠한 개인정보도
+          포함되어 있지 않습니다.</p>
+        <p>4. 수집된 정보의 제공<br />
+          회사는 서비스를 제공하기 위해 수집된 데이터를 서비스 회원사 또는 해당 서비스가 필요로 하는 제3자에게 제공할 수 있습니다. 이 경우 서비스 회원의 웹사이트, 홈페이지, 온라인 영업점 등을 이용하는
+          이용자의 동의를 구하지 않습니다.</p>
+        <p>5. 정보 취급의 책임<br />
+          데이터의 수집 및 취급과 관련하여 회사는 회원을 대리하여 당해 회원의 이름으로 서비스 이용 계약의 이행을 위해 데이터를 서비스의 제공 등 제한적인 목적을 위하여만 수집, 취급하고 이용합니다. 기타의
+          목적으로는 당해 회원사의 개인정보 처리방침 등 회원의 방침을 따릅니다. 서비스 제공의 목적 및 회원의 방침에 따른
+          데이터의 수집, 취급과 이용에 관한 책임은 해당 회원이 부담하며 회사는 이에 대하여 책임을 지지 않습니다.</p>
+
+        <h3>제14조(개인정보 처리방침 변경) </h3>
+        <p>이 개인정보처리방침은 시행일로부터 적용됩니다. 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 홈페이지의 공지사항 또는 개별 고지를 통하여 고지할
+          것입니다. 이전의 개인정보 처리방침은 아래 사이트 링크에서 확인하실 수 있습니다. <br />taggers.io</p>
+      </div>
+    </div>
+  </Layout>
+);
+
+export default PrivacyPage;

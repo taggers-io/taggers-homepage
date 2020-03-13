@@ -14,7 +14,7 @@ const Header = ({siteTitle}) => (
                 </div>
 
                 <div className={"get-started"}>
-                    <a href={"https://app.histaff.io"}>Get Started</a>
+                    <a href={"https://app.histaff.io"}>무료 한 달 체험하기</a>
                 </div>
             </div>
         </div>

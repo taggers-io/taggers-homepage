@@ -42,7 +42,11 @@ const Layout = ({children}) => (
                                 </div>
 
                                 <div className={"about"}>
-                                    <p>A software that was created with the goal of solving the problems of Human Resources in small and medium-sized businesses.</p>
+                                    {/*<p>A software that was created with the goal of solving the problems of Human Resources in small and medium-sized businesses.</p>*/}
+                                    <p>(주) 태거스</p>
+                                    <p>대표: 진희종</p>
+                                    <p>사업자 등록번호: 516-81-00635</p>
+                                    <p>사업장: 서울특별시 서초구 서초대로 78길 22, 현대카드 스튜디오 블랙</p>
                                 </div>
                             </div>
                         </div>
@@ -50,12 +54,12 @@ const Layout = ({children}) => (
                         <div className={"col-2"}>
                             <div className={"widget__item"}>
                                 <ul className={"links"}>
-                                    <h4>HiStaff</h4>
+                                    <h4>Taggers</h4>
                                     <ul>
-                                        <li><Link to="/integrations/slack" title={"Integrations"}>Integrations</Link></li>
+                                        <li><Link to="/feature" title={"Feature"}>Feature</Link></li>
+                                        <li><Link to="/service" title={"Service"}>Service</Link></li>
                                         <li><Link to="/about" title={"About Us"}>About</Link></li>
                                         <li><a href={"https://histaff.io/blog"}>Blog</a></li>
-                                        <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
                                     </ul>
                                 </ul>
                             </div>
@@ -87,7 +91,7 @@ const Layout = ({children}) => (
                     </div>
 
                     <div className={"copyright"}>
-                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://histaff.io" title={"HiStaff"}>HiStaff</a>. All rights reserved.</p>
+                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://histaff.io" title={"HiStaff"}>Taggers</a>. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

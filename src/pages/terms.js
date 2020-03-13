@@ -1,119 +1,186 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const TermsPage = () => (
-    <Layout>
-        <SEO title="Terms Of Use"/>
-        <div className={"container"}>
-            <div className={"content"}>
-                <div className={"title"}>
-                    <h1>Terms Of Use</h1>
-                </div>
-
-                <p><strong>Last Updated 07 June 2019</strong></p>
-
-                <h3><strong>1. Agreement to Terms</strong></h3>
-                <p>1.1 These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<strong>you</strong>), and <strong>HiStaff</strong>, doing business as<strong> HiStaff</strong> <strong>(https://histaff.io) </strong>website as well as any related applications (the <strong>Site</strong>). &nbsp;</p>
-                <p>The Site provides the following services: (<strong>Services</strong>). You agree that by accessing the Site and/or Services, you have read, understood, and agree to be bound by all of these Terms and Conditions. &nbsp;</p>
-                <p><strong>If you do not agree with all of these Terms and Conditions, then you are prohibited from using the Site and Services and you must discontinue use immediately</strong>. We recommend that you print a copy of these Terms and Conditions for future reference. &nbsp;</p>
-                <p>1.2 The supplemental policies set out in Section 1.7 below, as well as any supplemental terms and condition or documents that may be posted on the Site from time to time, are expressly incorporated by reference. &nbsp;</p>
-                <p>1.3 We may make changes to these Terms and Conditions at any time. The updated version of these Terms and Conditions will be indicated by an updated &acirc;&euro;&oelig;Revised&acirc;&euro; date and the updated version will be effective as soon as it is accessible. You are responsible for reviewing these Terms and Conditions to stay informed of updates. Your continued use of the Site represents that you have accepted such changes. &nbsp;</p>
-                <p>1.4 We may update or change the Site from time to time to reflect changes to our products, our users' needs and/or our business priorities. &nbsp;</p>
-                <p>1.5 Our site is directed to people residing in England. The information provided on the Site is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. &nbsp;</p>
-                <p>1.6 The Site is intended for users who are at least 18 years old. If you are under the age of 18, you are not permitted to register for the Site or use the Services without parental permission.</p>
-                <p>1.7 Additional policies which also apply to your use of the Site include: &nbsp;</p>
-                <p><strong>&mdash; </strong>Our Privacy Notice https://histaff.io/privacy, which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using the Site, you consent to such processing and you warrant that all data provided by you is accurate. &nbsp;</p>
-                <p><strong>&mdash; </strong>Our Acceptable Use Policy contact@histaff.io, which sets out the permitted uses and prohibited uses of the Site. When using the Site, you must comply with this Acceptable Use Policy. &nbsp;</p>
-                <p><strong>&mdash; </strong>Our Cookie Policy https://app.histaff.io, which sets out information about the cookies on the Site.</p>
-
-                <h3><strong>2. </strong>&nbsp;<strong>Acceptable Use </strong> </h3>
-                <p>2.1 Our full Acceptable Use Policy contact@histaff.io, sets out all the permitted uses and prohibited uses of this site. &nbsp;</p>
-                <p>2.2 You may not access or use the Site for any purpose other than that for which we make the site and our services available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us. &nbsp;</p>
-                <p>2.3 As a user of this Site, you agree not to: &nbsp;</p>
-                <p><strong>&mdash; </strong>Falsely imply a relationship with us or another company with whom you do not have a relationship </p>
-
-                <h3>3. Information you provide to us</h3>
-                <p>3.1 You represent and warrant that: (a) all registration information you submit will be true, accurate, current, and complete and relate to you and not a third party; (b) you will maintain the accuracy of such information and promptly update such information as necessary; (c) you will keep your password confidential and will be responsible for all use of your password and account; (d) you have the legal capacity and you agree to comply with these Terms and Conditions; and (e) you are not a minor in the jurisdiction in which you reside, or if a minor, you have received parental permission to use the Site. &nbsp;</p>
-                <p>If you know or suspect that anyone other than you knows your user information (such as an identification code or user name) and/or password you must promptly notify us at contact@hitstaff.io.</p>
-                <p>3.2 If you provide any information that is untrue, inaccurate, not current or incomplete, we may suspend or terminate your account. We may remove or change a user name you select if we determine that such user name is inappropriate. &nbsp;</p>
-
-                <h3><strong>4.</strong> <strong> </strong><strong>Content you provide to us</strong></h3>
-                <p>4.1 There may be opportunities for you to post content to the Site or send feedback to us (<strong>User Content</strong>). You understand and agree that your User Content may be viewed by other users on the Site, and that they may be able to see who has posted that User Content. </p>
-                <p>4.2 <em>You further agree that we can use your User Content for any other purposes whatsoever in perpetuity without payment to you, and combine your User Content with other content for use within the Site and otherwise. We do not have to attribute your User Content to you</em>. <em>When you upload or post content to our site, you grant us the following rights to use that content:</em> &nbsp;</p>
-                <p>4.3 In posting User Content, including reviews or making contact with other users of the Site you shall comply with our Acceptable Use Policy contact@histaff.io. &nbsp;</p>
-                <p>4.4 You warrant that any User Content does comply with our Acceptable Use Policy, and you will be liable to us and indemnify us for any breach of that warranty. This means you will be responsible for any loss or damage we suffer as a result of your breach of this warranty.</p>
-                <p>4.5 We have the right to remove any User Content you put on the Site if, in our opinion, such User Content does not comply with the Acceptable Use Policy. &nbsp;</p>
-                <p>4.6 We are not responsible and accept no liability for any User Content including any such content that contains incorrect information or is defamatory or loss of User Content. We accept no obligation to screen, edit or monitor any User Content but we reserve the right to remove, screen and/or edit any User Content without notice and at any time. User Content has not been verified or approved by us and the views expressed by other users on the Site do not represent our views or values</p>
-                <p>4.7 If you wish to complain about User Content uploaded by other users please contact us at contact@hitstaff.io or use the take down or report button. &nbsp;&nbsp;&nbsp;</p>
-
-                <h3>5. Our content</h3>
-                <p>5.1 Unless otherwise indicated, the Site and Services including source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (<strong>Our Content</strong>) are owned or licensed to us, and are protected by copyright and trade mark laws. &nbsp;</p>
-                <p>5.2 Except as expressly provided in these Terms and Conditions, no part of the Site, Services or Our Content may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.</p>
-                <p>5.3 Provided that you are eligible to use the Site, you are granted a limited licence to access and use the Site and Our Content and to download or print a copy of any portion of the Content to which you have properly gained access solely for your personal, non-commercial use. &nbsp;</p>
-                <p>5.4 You shall not (a) try to gain unauthorised access to the Site or any networks, servers or computer systems connected to the Site; and/or (b) make for any purpose including error correction, any modifications, adaptions, additions or enhancements to the Site or Our Content, including the modification of the paper or digital copies you may have downloaded.</p>
-                <p>5.5 We shall (a) prepare the Site and Our Content with reasonable skill and care; and (b) use industry standard virus detection software to try to block the uploading of content to the Site that contains viruses. &nbsp;</p>
-                <p>5.6 The content on the Site is provided for general information only. It is not intended to amount to advice on which you should rely. You must obtain professional or specialist advice before taking, or refraining from taking, any action on the basis of the content on the Site. &nbsp;</p>
-                <p>5.7 Although we make reasonable efforts to update the information on our site, we make no representations, warranties or guarantees, whether express or implied, that Our Content on the Site is accurate, complete or up to date. </p>
-
-                <h3><strong>6. Link to third party content</strong></h3>
-                <p>6.1 The Site may contain links to websites or applications operated by third parties.We do not have any influence or control over any such third party websites or applications or the third party operator. We are not responsible for and do not endorse any third party websites or applications or their availability or content.</p>
-                <p>6.2 We accept no responsibility for adverts contained within the Site. If you agree to purchase goods and/or services from any third party who advertises in the Site, you do so at your own risk. The advertiser, and not us, is responsible for such goods and/or services and if you have any questions or complaints in relation to them, you should contact the advertiser. </p>
-
-                <h3><strong>7. </strong>&nbsp;<strong> </strong><strong>Site Management</strong></h3>
-                <p>7.1 We reserve the right at our sole discretion, to (1) monitor the Site for breaches of these Terms and Conditions; (2) take appropriate legal action against anyone in breach of applicable laws or these Terms and Conditions; (3) refuse, restrict access to or availability of, or disable (to the extent technologically feasible) any of your Contributions; (4) remove from the Site or otherwise disable all files and content that are excessive in size or are in any way a burden to our systems; and (5) otherwise manage the Site in a manner designed to protect our rights and property and to facilitate the proper functioning of the Site and Services. &nbsp;</p>
-                <p>7.2 We do not guarantee that the Site will be secure or free from bugs or viruses.</p>
-                <p>7.3 You are responsible for configuring your information technology, computer programs and platform to access the Site and you should use your own virus protection software. &nbsp;</p>
-
-                <h3><strong>8.</strong> <strong> </strong><strong>Modifications to and availability of the Site</strong></h3>
-                <p>8.1 We reserve the right to change, modify, or remove the contents of the Site at any time or for any reason at our sole discretion without notice. We also reserve the right to modify or discontinue all or part of the Services without notice at any time. &nbsp;</p>
-                <p>8.2 We cannot guarantee the Site and Services will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Site, resulting in interruptions, delays, or errors. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Site or Services during any downtime or discontinuance of the Site or Services.We are not obliged to maintain and support the Site or Services or to supply any corrections, updates, or releases.</p>
-                <p>8.3 There may be information on the Site that contains typographical errors, inaccuracies, or omissions that may relate to the Services, including descriptions, pricing, availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information at any time, without prior notice. &nbsp;</p>
-
-                <h3><strong>9.</strong> <strong> </strong><strong>Disclaimer/Limitation of Liability</strong></h3>
-                <p>9.1 The Site and Services are provided on an as-is and as-available basis. You agree that your use of the Site and/or Services will be at your sole risk except as expressly set out in these Terms and Conditions. All warranties, terms, conditions and undertakings, express or implied (including by statute, custom or usage, a course of dealing, or common law) in connection with the Site and Services and your use thereof including, without limitation, the implied warranties of satisfactory quality, fitness for a particular purpose and non-infringement are excluded to the fullest extent permitted by applicable law. &nbsp;</p>
-                <p>We make no warranties or representations about the accuracy or completeness of the Site&acirc;&euro;&trade;s content and are not liable for any (1) errors or omissions in content: (2) any unauthorized access to or use of our servers and/or any and all personal information and/or financial information stored on our server; (3) any interruption or cessation of transmission to or from the site or services; and/or (4) any bugs, viruses, trojan horses, or the like which may be transmitted to or through the site by any third party. We will not be responsible for any delay or failure to comply with our obligations under these Terms and Conditions if such delay or failure is caused by an event beyond our reasonable control.</p>
-                <p>9.2 Our responsibility for loss or damage suffered by you:</p>
-                <p><strong>Whether you are a consumer or a business user:</strong></p>
-                <p><strong>&mdash; </strong>We do not exclude or limit in any way our liability to you where it would be unlawful to do so. This includes liability for death or personal injury caused by our negligence or the negligence of our employees, agents or subcontractors and for fraud or fraudulent misrepresentation. &nbsp;</p>
-                <p><strong>If you are a business user</strong>:</p>
-                <p>We will not be liable to you for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with:</p>
-                <p><strong>&mdash; </strong>use of, or inability to use, our Site/Services; or </p>
-                <p><strong>&mdash; </strong>use of or reliance on any content displayed on our Site. </p>
-                <p>In particular, we will not be liable for:</p>
-                <p><strong>&mdash; </strong>loss of profits, sales, business, or revenue; </p>
-                <p><strong>&mdash; </strong>business interruption; </p>
-                <p><strong>&mdash; </strong>loss of anticipated savings; </p>
-                <p><strong>&mdash; </strong>loss of business opportunity, goodwill or reputation; or </p>
-                <p><strong>&mdash; </strong>any indirect or consequential loss or damage. &nbsp;</p>
-                <p><strong>If you are a consumer user:</strong></p>
-                <p><strong>&mdash; </strong>Please note that we only provide our Site for domestic and private use. You agree not to use our Site for any commercial or business purposes, and we have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity.</p>
-                <p><strong>&mdash; </strong>If defective digital content that we have supplied, damages a device or digital content belonging to you and this is caused by our failure to use reasonable care and skill, we will either repair the damage or pay you compensation. </p>
-                <p><strong>&mdash; </strong>You have legal rights in relation to goods that are faulty or not as described. Advice about your legal rights is available from your local Citizens' Advice Bureau or Trading Standards office. Nothing in these Terms and Conditions will affect these legal rights. &nbsp;&nbsp;&nbsp;</p>
-
-                <h3><strong>10. </strong>&nbsp;<strong> </strong><strong>Term and Termination</strong></h3>
-                <p>10.1 These Terms and Conditions shall remain in full force and effect while you use the Site or Services or are otherwise a user of the Site, as applicable. You may terminate your use or participation at any time, for any reason, by following the instructions for terminating user accounts in your account settings, if available, or by contacting us at contact@hitstaff.io. &nbsp;</p>
-                <p>10.2 Without limiting any other provision of these Terms and Conditions, we reserve the right to, in our sole discretion and without notice or liability, deny access to and use of the Site and the Services (including blocking certain IP addresses), to any person for any reason including without limitation for breach of any representation, warranty or covenant contained in these Terms and Conditions or of any applicable law or regulation. &nbsp;</p>
-                <p>If we determine, in our sole discretion, that your use of the Site/Services is in breach of these Terms and Conditions or of any applicable law or regulation, we may terminate your use or participation in the Site and the Services or delete your profile and any content or information that you posted at any time, without warning, in our sole discretion. &nbsp;</p>
-                <p>10.3 If we terminate or suspend your account for any reason set out in this Section 9, you are prohibited from registering and creating a new account under your name, a fake or borrowed name, or the name of any third party, even if you may be acting on behalf of the third party. In addition to terminating or suspending your account, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress. </p>
-
-                <h3><strong>11.</strong> <strong>General</strong></h3>
-                <p>11.1 Visiting the Site, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communication be in writing. &nbsp;</p>
-                <p><strong>You hereby agree to the use of electronic signatures, contracts, orders and other records and to electronic delivery of notices, policies and records of transactions initiated or completed by us or via the Site.</strong> You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by other than electronic means. &nbsp;</p>
-                <p>11.2 These Terms and Conditions and any policies or operating rules posted by us on the Site or in respect to the Services constitute the entire agreement and understanding between you and us. &nbsp;</p>
-                <p>11.3 Our failure to exercise or enforce any right or provision of these Terms and Conditions shall not operate as a waiver of such right or provision. &nbsp;</p>
-                <p>11.4 We may assign any or all of our rights and obligations to others at any time. &nbsp;</p>
-                <p>11.5 We shall not be responsible or liable for any loss, damage, delay or failure to act caused by any cause beyond our reasonable control. &nbsp;</p>
-                <p>11.6 If any provision or part of a provision of these Terms and Conditions is unlawful, void or unenforceable, that provision or part of the provision is deemed severable from these Terms and Conditions and does not affect the validity and enforceability of any remaining provisions. &nbsp;</p>
-                <p>11.7 There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Terms and Conditions or use of the Site or Services.</p>
-                <p>11.8 <strong><em>For consumers only </em></strong><em>&nbsp;- Please note that these Terms and Conditions, their subject matter and their formation, are governed by English law. You and we both agree that the courts of England and Wales will have exclusive jurisdiction expect that if you are a resident of Northern Ireland you may also bring proceedings in Northern Ireland, and if you are resident of Scotland, you may also bring proceedings in Scotland. If you have any complaint or wish to raise a dispute under these Terms and Conditions or otherwise in relation to the Site please follow this link</em> <a href="http://ec.europa.eu/odr"><em>http://ec.europa.eu/odr</em></a>&nbsp;</p>
-                <p>11.9 <strong><em>For business users only</em></strong><em> - If you are a business user, these Terms and Conditions, their subject matter and their formation (and any non-contractual disputes or claims) are governed by English Law. We both agree to the exclusive jurisdiction of the courts of England and Wales</em>. &nbsp;</p>
-                <p>11.10 A person who is not a party to these Terms and Conditions shall have no right under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of these Terms and Conditions.</p>
-                <p>11.11 In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us by email at contact@hitstaff.io</p>
-            </div>
+  <Layout>
+    <SEO title="Terms Of Use" />
+    <div className={"container"}>
+      <div className={"content"}>
+        <div className={"title"}>
+          <h1>Terms Of Use</h1>
         </div>
-    </Layout>
-)
 
-export default TermsPage
+        <p><strong>Last Updated 12 Mar 2020</strong></p>
+
+        <h3><strong>제 1 조 (목적)</strong></h3>
+        <p>1.1 본 약관의 “회사"는 주식회사 태거스(이하 "회사")의 http://www.taggers.io(이하 "서비스 사이트") 에서 표시, 제공하는 로그 분석 및 광고 캠페인 생성
+          서비스 <strong>태거스입니다. “회사”의 광고관리 서비스 (이하 "서비스")</strong> 신청에 따른 이용조건 및 절차, 권리 · 의무 및 책임사항과 관련하여 “회원”과 “회사”간에 필요한
+          사항을 규정함을 목적으로 합니다. &nbsp;</p>
+
+        <h3><strong>제 2 조 (적용)</strong></h3>
+        <p>2.1 본 약관은 “회사”의 웹사이트 내에 게시 또는 기타의 방법으로 “회원”에게 공지 함으로써 효력이 발생합니다. &nbsp;</p>
+        <p>2.2 “회사”는 필요에 따라 이 약관을 변경할 수 있으며, 약관 변경 시 위 제5조와 같은 방법으로 공지합니다. &nbsp;</p>
+        <p>2.3 “회사”의 “서비스 사이트” 안에 새로운 “서비스”가 추가될 경우 별도의 명시된 설명이 없는 한 이 약관의 정한 바에 따릅니다. &nbsp;</p>
+
+        <h3><strong>제 3 조 (준용)</strong></h3>
+        <p>3.1 본 약관에 명시되지 않은 사항은 회사의 웹 사이트 내에 게시된 내용 또는 전기통신기본법, 전기통신사업법 및 기타 관련법령에 따릅니다. &nbsp;</p>
+
+        <h3><strong>제 4 조 (정의)</strong></h3>
+        <p>“약관”에서 사용하는 용어의 정의는 아래와 같습니다.</p>
+        <p>4.1 서비스 : “회사”가 제공하는 제반 서비스 및 플랫폼 서비스입니다. &nbsp;</p>
+        <p>4.2 회원 : 본 약관에 따라 “회사”와 “서비스” 이용계약을 체결한 개인이나 법인 또는 법인에 준하는 단체 또는 개인입니다. &nbsp;</p>
+        <p>4.3 아이디 (ID) : 정상적인 “서비스”를 받기 위하여 “회원”이 부여 받는 구분 문자입니다. &nbsp;</p>
+        <p>4.4 비밀번호 : “회원”의 비밀보호를 위해 “회원” 자신이 설정한 영어,특수문자,숫자의 조합입니다. &nbsp;</p>
+        <p>4.5 서비스 신청 : “회사”가 정한 별도의 기준과 절차에 따라 “서비스” 이용을 신청하는 것 입니다. &nbsp;</p>
+        <p>4.6 “서비스” 승낙 : “회원”의 이용신청이 “회사”가 정한 요건을 충족 open시키거나 연체, 이용중단, 해지 등의 사유가 해소됨에 따라 “회원”이 정상적으로 “서비스”를 이용할 수 있도록
+          허락하는 것 입니다. &nbsp;</p>
+        <p>4.7 서비스 비용 : “회원”이 유료“서비스”를 사용한 대가에 따라 “회사”가 청구한 금액입니다. &nbsp;</p>
+        <p>4.8 광고매체 : “회사”에 의해 제휴 매체에 광고가 게재되는 형태의 매체를 의미합니다. &nbsp;</p>
+        <p>4.9 광고소재 : “광고소재”라 함은 “회원”이 게재 신청하여 “광고매체”에 게재되는 키워드, 제목, 설명 문구, 부가정보, 노출, 이미지, 태그 등의 정보의 광고 내용을
+          의미합니다. &nbsp;</p>
+
+        <h3><strong>제 5조 (약관의 게시와 개정)</strong></h3>
+        <p>5.1 “회사”는 “약관”의 내용을 “회원”이 쉽게 알 수 있도록 홈페이지 또는 “태거스 광고주도구” 초기화면 또는 연결화면을 통하여 게시합니다. &nbsp;</p>
+        <p>5.2 “회사”는 필요한 경우 관련 법령을 위배하지 않는 범위 내에서 “약관”을 개정할 수 있습니다. &nbsp;</p>
+        <p>5.3 “회사”는 “약관”을 개정할 경우 개정내용과 적용일자를 명시하여 “태거스 광고주도구”에서 적용일자 7일전부터 적용일자 전일까지 공지합니다. 다만, “회원”에게 불리하게 개정되는 경우
+          적용일자 30일 전부터 공지합니다. &nbsp;</p>
+        <p>5.4 “회사”가 정한 규칙에 따라 공지하면서 “회원”에게 적용일자 전일까지 의사표시를 하지 않으면 의사표시가 표명된 것으로 본다는 뜻을 명확하게 공지하거나, 제13조에 따른 방법으로
+          통지하였음에도 “회원”이 명시적으로 거부의 의사표시를 하지 않은 경우 “회원”이 개정 약관에 동의한 것으로 봅니다. &nbsp;</p>
+        <p>5.5 “회원”은 개정 약관에 동의하지 않는 경우 적용일자 전일까지 “회사”에 거부의사를 표시하고 “회원” 탈퇴를 할 수 있습니다. &nbsp;</p>
+
+        <h3><strong>제 6 조 (광고신청 & 회원 가입)</strong></h3>
+        <p>6.1 “회원” 가입은 “서비스”를 이용하고자 하는 자(이하 “가입신청자”라고 합니다)가 “약관”의 내용에 동의를 한 다음 “회사”가 정한 절차에 따라 가입신청을 하면, “회사”가 이러한 신청에
+          대하여 승낙함으로써 체결됩니다.</p>
+        <p>6.2 “회사”는 “가입신청자”의 신청에 대하여 아래 각 호의 사유가 있는 경우에는 승낙을 하지 않을 수 있으며, 가입 이후에도 아래 각 호의 사유가 확인될 경우에는 “회원” 직권 해지 조치를 할
+          수 있습니다. 1) “가입신청자”가 “약관”에 의하여 이전에 “회원” 자격을 상실한 적이 있는 경우 2) “가입신청자”가 “약관” 위반 등의 사유로 “서비스” 이용제한 중에 “회원” 탈퇴 후
+          재가입신청을 하는 경우 3) 실명이 아닌 명의 또는 타인의 명의를 기재한 경우 4) 허위 또는 잘못된 정보를 기재 또는 제공하거나 “회사”가 제시하는 사항을 기재하지 않은 경우 5) “가입신청자”의
+          귀책사유로 인하여 승낙이 불가능하거나 기타 “약관”에서 규정한 제반 사항을 위반하여 신청하는 경우</p>
+        <p>6.3 제1항에 따른 신청에 대하여 “회사”는 전문기관을 통한 실명확인 및 본인인증을 “가입 신청자”에게 요청할 수 있습니다.</p>
+        <p>6.4 “회원” 가입의 성립 시기는 “회사”가 가입 완료를 신청 절차상에서 표시하거나, 제13조의 방식에 따른 통지가 “가입 신청자”에게 도달한 시점으로 합니다.</p>
+
+        <h3><strong>제 7조 (서비스의 주요 내용)</strong></h3>
+        <p>7.1 캠페인 생성: “태거스 광고주 도구”이용자가 등록된 상품을 “회사"가 구축한 절차에 따라 “광고 매체"에 게재하는 것을 말합니다. &nbsp;</p>
+
+        <h3><strong>제 8조 (서비스의 종류)</strong></h3>
+        <p>8.1 “회사”가 제공하는 “서비스”의 종류는 “서비스” 신청서에 정의한 바에 따릅니다. &nbsp;</p>
+
+        <h3><strong>제 9 조 (서비스 이용신청)</strong></h3>
+        <p>9.1 “서비스” 신청 시 약관에 동의하는 경우 “서비스”를 신청할 수 있습니다. &nbsp;</p>
+        <p>9.2 다음의 경우 약관에 동의한 것으로 간주합니다.가. “서비스” 신청 페이지의 "동의합니다" 버튼을 클릭하는 것으로 약관에 동의한 것으로 합니다.</p>
+        <p>9.3 “서비스”의 이용신청은 ID별 한 사이트를 원칙으로 하며 동일한 ID로 복수의 사이트에 대한 서비스를 받을 경우 별도의 “회사”의 승인이 있어야 합니다.</p>
+        <p>9.4 “서비스” 이용을 위해 “회원”이 “회사”에 스크립트 적용을 의뢰할 경우, FTP계정 또는 관리자계정을 알려 줄 의무가 있습니다.</p>
+
+        <h3><strong>제10 조 (서비스 이용계약 성립)</strong></h3>
+        <p>10.1 “서비스” 이용계약은 “회사”에서 정한 가입신청 양식을 작성하여 “회사”에 온라인으로 제출함으로 성립되며, 유료 “회원”인 경우 “서비스” 사용요금을 결제하는 것으로 최종 유료 이용계약이
+          성립됩니다. &nbsp;</p>
+
+
+        <h3><strong>제 11 조 (서비스 이용계약의 거부 및 해지)</strong></h3>
+        <p>11.1 “회원”의 귀책사유로 “서비스”를 사용하지 않을 경우, “서비스” 기간에 대하여 유료 “회원”인 경우 납부한 “서비스”요금은 환불되지 않습니다. &nbsp;</p>
+        <p>11.2 “회사”의 귀책사유로 “서비스”를 중지하게 될 경우, 유료 “회원”인 경우 남은 “서비스”기간에 해당하는 “서비스”요금을 월할 계산하여 환불합니다. (단, 한번이라도 사용한 월은 환불되지
+          않습니다.) &nbsp;</p>
+        <p>11.3 ”서비스” 약관 등의 변경에 따라 새로운 약관에 동의할 수 없는 경우 “서비스”의 해지를 신청할 수 있습니다. &nbsp;</p>
+        <p>11.4 “회사”는 다음의 경우 “서비스”의 승낙을 거부, 유보 할 수 있습니다.가. ”서비스”에 필요한 시설부족 및 관리가 어려운 경우나. 국내법에 위반되는 사이트에 본 “서비스”를 적용하려고
+          하는 경우다. 타 개인 및 단체의 정보를 이용하여 “회원”정보를 허위 기재한 경우라. 본인의 의사와 관계없이 타인에 의해 가입된 경우마. 기타 “회사”가 필요하다고 판단되는 경우 &nbsp;</p>
+        <p>11.5 “회사”는 다음의 경우에 “회원”의 합의 없이 또는 사전통보 없이 일방적으로 “서비스”를 해지 할 수 있습니다.가. “회원”이 “회사”에 납입할 “서비스” 이용요금을 납입하지 아니한
+          경우나. “회원”의 사이트가 국내법에 위반되어 “회사”에 피해가 예상되는 경우다. 고의적으로 “회사”의 “서비스”에 장애를 일으키기 위하여 한 행동으로 판단되는 경우라. 본 약관을 위반한 경우마.
+          기타 “회사”가 필요하다고 판단되는 경우 &nbsp;</p>
+        <p>11.6 성인사이트 및 도박 게임아이템거래 중개 등 불법사이트에는 적용접수를 받지 않습니다. 발견 즉시 “서비스”가 중지됩니다. &nbsp;</p>
+        <p>11.7 한 개 사이트 적용 계약이며, 하나의 계정으로 두 개 이상의 사이트를 운영할 경우 발견 즉시 한 개 사이트의 “서비스”가 중지됩니다.</p>
+
+        <h3><strong>제 12 조 (서비스의 일시중지 및 재개)</strong></h3>
+        <p>12.1 “회원”이 “회사”에 제공받는 개별적 “서비스”의 일시적 중지 및 재개를 요청할 수 있습니다. &nbsp;</p>
+        <p>12.2 개별적 “서비스”의 일시중지 신청 및 재개신청은 “회사” 메일 e-http@hanmail.net을 통한 요청 또는 “회사”의 홈페이지를 통하여 유선으로 요청할 수 있습니다.</p>
+        <p>12.3 “회사”는 일시중지 요청 및 재개신청을 받은 후 토,일(공휴일)을 제외한 제3영업일 이내로 처리하며, 그 결과를 “회원”에게 통보하며, 통보일을 그 일시중지 및 재개일로 정합니다.</p>
+        <p>12.4 “회사”는 일시중지 기간 동안 해당 “서비스”의 종료일을 연장합니다.</p>
+
+        <h3><strong>제 13 조 (서비스 개시일 및 중지일)</strong></h3>
+        <p>13.1 “서비스” 개시일은 “회원”이 “서비스”를 신청한 후 사용요금을 납부하여, “회사”가 “서비스”를 제공 가능하도록 “서비스”설정 및 승인을 한 날짜로 합니다. &nbsp;</p>
+        <p>13.2 “서비스” 종료일은 “회원”이 신청한 “서비스”로서, 위 1항에 의해 최종 결정된 날짜로 합니다.</p>
+
+        <h3><strong>제 14 조 (서비스의 이용기간)</strong></h3>
+        <p>14.1 “서비스” 이용기간은 위 13조에 따라 정한 개시일부터 종료일까지로 합니다. &nbsp;</p>
+        <p>14.2 “서비스” 이용기간이 종료되는 일자부터 “회사”는 “서비스” 제공과 관련된 모든 의무가 소멸됩니다.</p>
+        <p>14.3 무료 “회원”인 경우 “서비스” 이용을 즉시 또는 공고 후 중지할 수도 있습니다.</p>
+
+        <h3><strong>제 15 조 (서비스의 변경)</strong></h3>
+        <p>15.1 “회사“는 일정 범위내에 “서비스”를 변경 및 수정 가능하며, 이는 상관례상 가능한 범위를 의미합니다. &nbsp;</p>
+        <p>15.2 “회사“는 “서비스“를 변경할 경우 변경내용과 적용일자를 명시하여 “회원 공지사항“에서 사전에 공지합니다. 단, “회원”의 권리나 의무 및 “서비스“ 이용과 관련되는 실질적인 사항을
+          변경할 경우 적용일자 3일전부터 공지하며, “회원“에게 불리한 변경의 경우 적용일자 7일전부터 공지합니다.</p>
+        <p>15.3 “회원“은 “서비스“ 변경에 동의하지 않을 경우 “회사“에 거부의사를 표시하고 “회원“ 탈퇴를 할 수 있습니다.</p>
+
+        <h3><strong>제 16 조 (서비스의 중단)</strong></h3>
+        <p>16.1 “회사”는 필요에 따라 전체 “회원”를 대상으로 본 “서비스” 전체 또는 일부분을 중지할 수 있으며, 이러한 경우에 “회사”는 사이트의 “서비스”화면, 전자우편 등으로 “회원”에게
+          공지합니다. &nbsp;</p>
+        <p>16.2 “회원”의 “서비스” 이용으로 인해 회사가 제공하는 전체 “서비스”에 영향을 미칠 것으로 판단되는 상황이 발생할 경우, “회사”는 해당 “회원”의 “서비스”를 임시적으로 제한할 수
+          있습니다.</p>
+        <p>16.3 무료 “서비스” 및 유료 “서비스”의 종료일 자정을 기준으로 “서비스” 요금의 결제가 없을 경우 “서비스” 이용의사가 없는 것으로 판단하여 “서비스”는 사전 통보 없이 자동으로
+          중지됩니다.</p>
+        <p>16.4 “회사“는 제1항에 따른 “서비스“ 제공 중단으로 발생한 “회원“의 손해에 대하여 고의 또는 과실이 없는 한 책임을 지지 않습니다.</p>
+
+        <h3><strong>제 17 조 (회원에 대한 통지)</strong></h3>
+        <p>17.1 ”회사"가 "회원"에 대하여 통지를 하는 경우 "약관"에 별도의 규정이 없는 한 "회원"가 제공한 전자우편주소, (휴대)전화번호, “서비스” 로그인시 동의창 등의 수단으로 할 수
+          있습니다. &nbsp;</p>
+        <p>17.2 "회사"는 "회원" 전체에 대하여 통지를 하는 경우 3일 이상 “서비스” 내 공지사항에 게시함으로써 전항의 통지에 갈음할 수 있습니다. 다만, "회원"의 “서비스" 이용에 중대한 영향을
+          주는 사항에 대해서는 전항의 통지 수단 중 2개 이상의 방법으로 통지합니다.</p>
+        <p>17.3 "회원"은 "회사"에 실제로 연락이 가능한 전자우편, (휴대)전화번호, 등의 정보를 제공하고 해당 정보들을 최신으로 유지하여야 하며, "회사"의 통지를 확인하여야 합니다.</p>
+        <p>17.4 "회원"은 전항의 의무를 소홀히하여 발생한 불이익에 대해서는 보호받지 못합니다.</p>
+
+        <h3><strong>제 18 조 (서비스 이용에 의한 산출물 보호 및 보유기간)</strong></h3>
+        <p>18.1 “서비스” 이용에 의한 산출물, 즉 “서비스” 분석 데이터는 회원의 동의 없이 회사가 제3자에게 제공할 수 없습니다. &nbsp;</p>
+        <p>18.2 “서비스” 이용에 의한 산출물은 “회원”이 “서비스”를 사용하는 기간 및 “서비스”기간 종료 후 1개월간 보관하며, 그 이후로는 “회원”에게 통보 없이 삭제될 수 있으며 “서비스”
+          이용기간에만 해당 산출물이 생성됩니다.</p>
+        <p>18.3 “서비스” 이용중인 경우 생성된 “리포트” 정보는 1년간 보관됩니다.</p>
+
+        <h3><strong>제 19조 (회원의 의무)</strong></h3>
+        <p>19.1 “회원”은 관계 법령 및 약관의 규정에 따라야 합니다. &nbsp;</p>
+        <p>19.2 “회원”은 회사의 사전 동의 없이 “서비스”의 재판매 및 영업 등 영리행위를 할 수 없습니다.</p>
+        <p>19.3 “회원”은 자신의 ID와 비밀번호를 유지 관리할 책임이 있으며, 그 관리 소홀과 부정사용 등으로 인한 모든 결과에 대하여 전적인 책임이 있습니다.</p>
+        <p>19.4 “회원”의 본 항 위법 행위가 발견되면 “서비스” 중지와 함께 법적 책임을 지게 됩니다.가. ”서비스”의 내용을 회사의 사전 승낙 없이 타인에게 제공 하거나 변조, 유포시키는 행위나.
+          ”서비스”의 해킹 또는 컴퓨터 바이러스를 유포하는 행위다. 기타 “서비스”의 운영에 지장을 주거나 줄 우려가 있는 일체의 행위라. 기타 관계 법령에 위배되는 행위</p>
+
+        <h3><strong>제 20 조 (개인정보보호)</strong></h3>
+        <p>20.1 “회사”는 이용자의 개인정보 수집시 서비스제공을 위하여 필요한 범위에서 최소한의 개인정보를 수집합니다. &nbsp;</p>
+        <p>20.2 “회사”는 광고신청(회원가입)시 광고비 결제(구매전환툴&로그분석)에 필요한 정보를 미리 수집하지 않습니다. 다만, 관련 법령상 의무이행을 위하여 광고결제 이전에 본인확인이 필요한 경우로서
+          최소한의 특정 개인정보를 수집하는 경우에는 그러하지 아니합니다.</p>
+        <p>20.3 “회사”는 이용자의 개인정보를 수집•이용하는 때에는 당해 이용자에게 그 목적을 고지하고 동의를 받습니다.</p>
+        <p>20.4 “회사”는 수집된 개인정보를 목적외의 용도로 이용할 수 없으며, 새로운 이용목적이 발생한 경우 또는 제3자에게 제공하는 경우에는 이용•제공단계에서 당해 이용자에게 그 목적을 고지하고
+          동의를 받습니다. 다만, 관련 법령에 달리 정함이 있는 경우에는 예외로 합니다.</p>
+        <p>20.5 “회사”가 제2항과 제3항에 의해 이용자의 동의를 받아야 하는 경우에는 개인정보관리 책임자의 신원(소속, 성명 및 전화번호, 기타 연락처), 정보의 수집목적 및 이용목적, 제3자에 대한
+          정보제공 관련사항(제공받은자, 제공목적 및 제공할 정보의 내용) 등 정보통신망 이용촉진 및 정보보호 등에 관한 법률(“회원”은 “회사”의 서비스를 이용함으로써 얻은 정보 중 “회사”에게 지적재산권이
+          귀속된 정보를 “회사”의 사전 승낙 없이 복제, 송신, 출판, 배포, 방송 기타 방법에 의하여 영리목적으로 이용하거나 제3자에게 이용하게 하여서는 안됩니다)의 규정한 사항을 미리 명시하거나 고지해야
+          하며 이용자는 언제든지 이 동의를 철회할 수 있습니다.</p>
+        <p>20.6 “회원”은 언제든지 “회사”가 가지고 있는 자신의 개인정보에 대해 열람 및 오류정정을 요구할 수 있으며 “회사”는 이에 대해 지체 없이 필요한 조치를 취할 의무를 집니다. 이용자가 오류의
+          정정을 요구한 경우에는 “회사”는 그 오류를 정정할 때까지 당해 개인정보를 이용하지 않습니다.</p>
+        <p>20.7 “회사”는 개인정보 보호를 위하여 이용자의 개인정보를 취급하는 자를 최소한으로 제한하여야 하며 신용카드, 은행계좌 등을 포함한 이용자의 개인정보의 분실, 도난, 유출, 동의 없는 제3자
+          제공, 변조 등으로 인한 이용자의 손해에 대하여 모든 책임을 집니다.</p>
+        <p>20.8 “회사” 또는 그로부터 개인정보를 제공받은 제3자는 개인정보의 수집목적 또는 제공받은 목적을 달성한 때에는 당해 개인정보를 지체 없이 파기합니다.</p>
+        <p>20.9 “회사”는 개인정보의 수집•이용•제공에 관한 동의 란을 미리 선택한 것으로 설정해두지 않습니다. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절시 제한되는 서비스를 구체적으로
+          명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 이용자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다.</p>
+
+        <h3><strong>제 21조 (회사의 의무)</strong></h3>
+        <p>21.1 “회사“는 관련 법령과 “약관“을 준수하며, 계속적이고 안정적으로 “서비스”를 제공하기 위하여 최선을 다하여 노력합니다. &nbsp;</p>
+        <p>21.2 “회사“는 “회원“이 안전하게 "서비스"를 이용할 수 있도록 개인정보(신용정보 포함) 보호를 위하여 보안시스템을 갖추어야 하며 개인정보취급방침을 공시하고 준수합니다.</p>
+        <p>21.3 “회사“는 “서비스” 이용과 관련하여 “회원“로부터 제기된 의견이나 불만이 정당하다고 인정될 경우 이를 처리하여야 하며, “서비스” 내 게시판, 전자우편 등을 통하여 “회원“에게 처리과정
+          및 결과를 전달할 수 있습니다.</p>
+
+        <h3><strong>제 22 조 (손해배상)</strong></h3>
+        <p>22.1 “회사”가 제공하는 “서비스”와 관련하여 회사의 귀책사유인 경우를 제외하고 회사는 “서비스” 및 그의 이용으로 발생할 수 있는 회원의 어떠한 피해에 대하여 책임을 지지
+          않습니다. &nbsp;</p>
+        <p>22.2 “회원”이 약관의 규정을 위반함으로 인하여 “회사”의 영업활동에 손해가 발생하게 되는 경우, 해당 “회원”는 “회사”에 손해를 배상해야 할 책임이 있습니다.</p>
+        <p>22.3 손해가 다음 각 호에 해당하는 경우에는 “회사”는 손해배상을 아니합니다.가. 디도스공격, 전시, 사변, 천재지변, 또는 이에 준하는 국가비상사태 등 불가항력적인 경우나. “회원”의 고의
+          또는 과실로 인하여 발생한 경우다. 전기통신사업법에 의한 타 기간통신사업자가 제공하는 전기통신 서비스 장애로 인한 경우</p>
+        <p>22.4 단, 불가항력적인 피해의 경우 공동 책임, 공동대응을 원칙으로 합니다.</p>
+
+        <h3><strong>제 23 조 (관할법원)</strong></h3>
+        <p>23.1 “서비스”이용으로 인한 분쟁이 발생된 경우 회사의 본사 소재지 법원을 관할법원으로 합니다. &nbsp;</p>
+        <p>23.2 부칙제 1 조 (시행일)</p>
+        <p>23.3 이 약관은 2018년 1월 01일 부터 적용됩니다.</p>
+      </div>
+    </div>
+  </Layout>
+);
+
+export default TermsPage;
